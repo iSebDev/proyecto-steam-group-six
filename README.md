@@ -11,10 +11,10 @@
 tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
 
 ## Integrantes
-- Roberto Clavijo
-- Sebastian Aldao
-- Georgina Madera
-- Lautaro Morales
+- Roberto 
+- Sebastian 
+- Georgina 
+- Lautaro 
 - [Opcional: agregar fotos o avatar para cada integrante]
 
 ## Documentación
