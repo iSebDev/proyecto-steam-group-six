@@ -42,12 +42,25 @@ Imágenes o videos ilustrativos del avance
 AÑADIR
 
 ## 19/8/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+AÑADIR
+
+Tareas completadas
+*  Añadir
+
+
+Problemas encontrados y soluciones/alternativas propuestas
+
+Añadir
+
+Próximos pasos
+
+Para la siguiente semana se propone:
+*  AÑADIR
+
+
+Imágenes o videos ilustrativos del avance
+AÑADIR
+
 
 ## [x]/8/202x
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
