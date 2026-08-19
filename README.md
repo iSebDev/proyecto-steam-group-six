@@ -1,26 +1,24 @@
-*Este repositorio es una plantilla para ser usada para documentar proyectos STEAM.*
-
 # [Nombre Proyecto STEAM]
 
 ## Descripción
-- [Agregar un párrafo con descripción del proyecto STEAM]
+- El proyecto consiste en desarrollar una alarma visual para personas sordas utilizando una micro:bit, con el objetivo de transformar señales sonoras en alertas visuales que puedan ser percibidas fácilmente por el usuario. El sistema estará diseñado para detectar determinados sonidos o niveles de ruido mediante un sensor y, cuando se cumplan las condiciones establecidas, activar diferentes señales visuales, como luces LED, para indicar que se ha producido una alerta. De esta manera, se busca desarrollar una solución accesible, de bajo costo y sencilla de utilizar, que permita a las personas con dificultades auditivas identificar situaciones que normalmente dependerían de una señal sonora.
 - [Agregar una imagen o fotografía relevante al proyecto]
 - [Opcional: agregar el nombre del equipo]
 
 *Nota:* Este proyecto se realiza durante el curso **Laboratorio STEAM+** de la
-tecnicatura **Redes y Software** del [**nombre del instituto**] de **UTU**.
+tecnicatura **Redes y Software** del [**Instituto Superior Brazo Oriental (ISBO)**] de **UTU**.
 
 ## Integrantes
-- Roberto 
-- Sebastian 
-- Georgina 
-- Lautaro 
+- Roberto Clavijo
+- Sebastian Aldao
+- Georgina Madera
+- Lautaro Morales
 - [Opcional: agregar fotos o avatar para cada integrante]
 
 ## Documentación
-- [Informe de Avance - Agosto 202x](documentacion/avance1.md)
-- [Informe de Avance - Septiembre 202x](documentacion/avance2.md)
-- [Informe de Avance - Octubre 202x](documentacion/avance3.md)
+- [Informe de Avance - Agosto 2026](documentacion/avance1.md)
+- [Informe de Avance - Septiembre 2026](documentacion/avance2.md)
+- [Informe de Avance - Octubre 2026](documentacion/avance3.md)
 - [Documentación técnica](documentacion/documentacion_tecnica.md)
 
 ## Código fuente
