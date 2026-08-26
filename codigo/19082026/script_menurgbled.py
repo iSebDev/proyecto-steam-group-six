@@ -3,6 +3,27 @@ from microbit import pin0, pin1, pin2
 from microbit import button_a, button_b, pin_logo
 from microbit import sleep
 
+import os
+
+# Cargar configuracion
+
+# Cargar configuracion
+
+if "color.txt" not in os.listdir():
+    with open("color.txt", 'w') as f:
+        f.write("0,0,0")
+
+f = open("color.txt", 'r')
+
+color_text = f.read().split(',')
+
+f.close()
+
+colors = [
+    int(color_text[0]),
+    int(color_text[1]),
+    int(color_text[2])
+]
 
 # ==========================================
 # LED RGB
@@ -25,7 +46,7 @@ led_names = ["R", "G", "B"]
 # VARIABLES
 # ==========================================
 
-setting_color = True
+setting_color = False
 
 # 0 = R
 # 1 = G
@@ -34,12 +55,12 @@ selected_color = 0
 
 # Valores RGB
 # 0 - 1023
-colors = [
-    0,      # R
-    0,      # G
-    0       # B
-]
 
+colors = [
+    int(color_text[0]) or 0,      # R
+    int(color_text[1]) or 0,      # G
+    int(color_text[2]) or 0       # B
+]
 
 # Cuánto aumenta cada vez
 STEP = 20
@@ -133,7 +154,11 @@ def change_right():
 # AUMENTAR VALOR
 # ==========================================
 
+touches = 0
+
 def increase_color():
+
+    global touches
 
     value = colors[selected_color]
 
@@ -156,9 +181,11 @@ def increase_color():
     # --------------------------------------
 
     else:
-
-        # Volver a 0
-        colors[selected_color] = 0
+        touches += 1
+        if touches >= 5:
+            # Volver a 0
+            colors[selected_color] = 0
+            touches = 0
 
     # Cambiar LED inmediatamente
     update_leds()
@@ -181,7 +208,7 @@ def load_logo():
     # --------------------------------------
 
     if pin_logo.is_touched():
-
+        
         increase_color()
 
         sleep(LOGO_INTERVAL)
@@ -215,44 +242,33 @@ def load_menu_buttons():
     # ======================================
 
     if button_a.is_pressed() and button_b.is_pressed():
-
+    
         sleep(200)
-
-        # ----------------------------------
-        # Estábamos configurando
-        # ----------------------------------
-
+    
         if setting_color:
-
+    
+            # Guardar configuración
+            f = open("color.txt", 'w')
+            f.write(",".join(map(str, colors)))
+            f.close()
+    
             setting_color = False
-
-            # Limpiar pantalla
+    
             microbit.display.clear()
-
-            # Apagar LED
             turn_off_led()
-
-        # ----------------------------------
-        # Estábamos fuera
-        # ----------------------------------
-
+    
         else:
-
+    
             setting_color = True
-
-            # Encender LED
+    
             update_leds()
-
-            # Mostrar valor actual
             show_value()
-
-
-        # Esperar que suelten los botones
+    
         while button_a.is_pressed() or button_b.is_pressed():
-
             sleep(10)
 
         return
+
 
 
     # ======================================
