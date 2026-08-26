@@ -7,8 +7,6 @@ import os
 
 # Cargar configuracion
 
-# Cargar configuracion
-
 if "color.txt" not in os.listdir():
     with open("color.txt", 'w') as f:
         f.write("0,0,0")
