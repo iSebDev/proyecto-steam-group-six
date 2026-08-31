@@ -42,27 +42,50 @@ Imágenes o videos ilustrativos del avance
 AÑADIR
 
 ## 19/8/202x
-AÑADIR
+Durante esta segunda semana se continuó con el desarrollo de la alarma visual para personas sordas utilizando una micro:bit, avanzando desde la etapa inicial de investigación hacia el prototipado y las primeras pruebas prácticas. El objetivo principal de esta etapa fue comprobar la capacidad de la micro:bit para detectar sonidos mediante un micrófono y utilizar el nivel de sonido registrado para generar una respuesta visual. Para ello, se desarrolló inicialmente un prototipo en Tinkercad y posteriormente se trasladó el circuito a componentes físicos reales.
+Además, durante esta semana se comenzó a trabajar con el IoT Kit de Elecfreaks, investigando especialmente el funcionamiento del micrófono incorporado y de la pantalla del dispositivo. Como parte de estas pruebas, se desarrolló un primer prototipo de menú para mostrar información en la pantalla. Finalmente, se consiguió que el LED RGB respondiera correctamente a los sonidos detectados, pudiendo encenderse en diferentes colores dependiendo del nivel de sonido registrado, lo que representa un avance importante hacia el funcionamiento esperado de la alarma.
+
 
 Tareas completadas
-*  Añadir
+*  Se continuó con la investigación y planificación iniciada durante la primera semana.
+*  Se realizó un prototipo del circuito en Tinkercad.
+*  Se planteó como primer objetivo detectar sonido y utilizar esta información para controlar un LED RGB.
+*  Se trasladó el circuito diseñado en Tinkercad a componentes físicos reales.
+*  Se realizaron pruebas con la micro:bit, el micrófono y el LED RGB.
+*  Se logró detectar diferentes niveles de sonido mediante el micrófono.
+*  Se consiguió que el LED RGB se encienda en diferentes colores según el nivel de sonido detectado.
+*  Se comenzó a investigar el funcionamiento del IoT Kit de Elecfreaks, particularmente el micrófono incorporado.
+*  Se realizaron pruebas para comprender cómo utilizar el micrófono del kit junto con la micro:bit.
+*  Se desarrolló un prototipo inicial de menú para mostrar contenido en la pantalla del IoT Kit.
+*  Se continuó con la revisión de la documentación correspondiente al proyecto y a los componentes utilizados.
 
 
 Problemas encontrados y soluciones/alternativas propuestas
 
-Añadir
+Uno de los principales inconvenientes encontrados durante esta semana fue la familiarización con el IoT Kit de Elecfreaks, ya que el equipo no había trabajado anteriormente con este dispositivo. Fue necesario investigar su funcionamiento, los componentes incluidos y la forma correcta de utilizarlos junto con la micro:bit.
+También se presentaron algunos contratiempos durante la implementación física del circuito previamente realizado en Tinkercad. Debido principalmente a la falta de experiencia del equipo con determinadas conexiones y componentes, fue necesario revisar el circuito y realizar diferentes pruebas hasta conseguir reproducir correctamente el funcionamiento esperado.
+Finalmente, se logró solucionar estos inconvenientes y obtener un resultado funcional: el sistema detecta el nivel de sonido y modifica el color del LED RGB en función de dicho nivel. Este resultado permitió comprobar que es posible utilizar la intensidad del sonido como criterio para generar diferentes niveles de alerta visual.
+
 
 Próximos pasos
 
 Para la siguiente semana se propone:
-*  AÑADIR
+*  Continuar experimentando con el micrófono del IoT Kit.
+*  Determinar los rangos de sonido que corresponderá a cada nivel de alerta.
+*  Ajustar la sensibilidad del sistema para evitar activaciones innecesarias.
+*  Continuar desarrollando el menú de la pantalla del IoT Kit.
+*  Integrar progresivamente el micrófono, la pantalla y los elementos visuales en un único sistema.
+*  Definir qué colores representarán cada nivel de alerta.
+*  Realizar pruebas con diferentes tipos y niveles de sonido.
+*  Analizar posibles falsos positivos y buscar alternativas para mejorar la precisión.
+*  Continuar documentando los avances y las dificultades encontradas durante el desarrollo.
 
 
 Imágenes o videos ilustrativos del avance
 AÑADIR
 
 
-## [x]/8/202x
+## [x]/8/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
 - [Incluir:]
   - [Tareas completadas]
@@ -70,7 +93,7 @@ AÑADIR
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
 
-## [x]/8/202x
+## [x]/8/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
 - [Incluir:]
   - [Tareas completadas]
