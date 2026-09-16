@@ -1,36 +1,66 @@
 # Informe de Avance 2: Septiembre 202x
 
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+## 2/8/2026
+Añadir
 
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+### Tareas completadas
+*  
 
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
 
-## [x]/9/202x
-- [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
-- [Incluir:]
-  - [Tareas completadas]
-  - [Problemas encontrados y soluciones/alternativas propuestas]
-  - [Próximos pasos]
-  - [Imágenes o videos ilustrativos del avance]
+### Problemas encontrados y soluciones/alternativas propuestas
 
-## Nota
-En este enlace encontrarás un [ejemplo como debe completarse el informe de avance](avance_ejemplo.md).
+Añadir
+
+### Próximos pasos
+
+Para la siguiente semana se propone:
+*  
+
+
+### Imágenes o videos ilustrativos del avance
+Añadir
+
+## 9/8/2026
+Esta jornada no hubo clases, por lo tanto no se continuó con el desarrollo del proyecto.
+
+## 16/8/2026
+Añadir
+
+### Tareas completadas
+*  
+
+
+### Problemas encontrados y soluciones/alternativas propuestas
+
+Añadir
+
+### Próximos pasos
+
+Para la siguiente semana se propone:
+*  
+
+
+### Imágenes o videos ilustrativos del avance
+Esta jornada no hubo clases, por lo tanto no se continuó con el desarrolo del proyecto.
+
+## 30/8/2026
+Añadir
+
+### Tareas completadas
+*  
+
+
+### Problemas encontrados y soluciones/alternativas propuestas
+
+Añadir
+
+### Próximos pasos
+
+Para la siguiente semana se propone:
+*  
+
+
+### Imágenes o videos ilustrativos del avance
+Añadir
+
+## 23/8/2026
