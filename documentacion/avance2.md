@@ -31,7 +31,6 @@ Añadir
 ### Tareas completadas
 *  
 
-
 ### Problemas encontrados y soluciones/alternativas propuestas
 
 Añadir
@@ -41,12 +40,12 @@ Añadir
 Para la siguiente semana se propone:
 *  
 
-
 ### Imágenes o videos ilustrativos del avance
-Esta jornada no hubo clases, por lo tanto no se continuó con el desarrolo del proyecto.
+<img width="4900" height="2766" alt="Tablero de visión del producto" src="https://github.com/user-attachments/assets/3ebb4a18-2e9b-4e7f-a1f6-8ca7b7aaafd6" />
+
 
 ## 23/9/2026
-Añadir
+Esta jornada no hubo clases, por lo tanto no se continuó con el desarrolo del proyecto.
 
 ### Tareas completadas
 *  
