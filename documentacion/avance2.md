@@ -70,8 +70,7 @@ Añadir
 
 ### Tareas completadas
 *  
-
-
+ 
 ### Problemas encontrados y soluciones/alternativas propuestas
 
 Añadir
