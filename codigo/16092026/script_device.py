@@ -234,6 +234,26 @@ def load_logo():
             sleep(LOGO_INTERVAL)
 
 # =========================================================
+# RADIO - ENVIAR MENSAJE A MICROBIT MAKECODE
+# =========================================================
+# Basado en codigo: https://github.com/rhubarbdog/microbit-radio
+# Ver: https://ukbaz.github.io/howto/ubit_radio.html
+def radio_send_string_to_makecode(msg, group_id):
+    dal_header = b'\x01' + group_id.to_bytes(1,'little') + b'\x01'
+    packet_type = int('2').to_bytes(1,'little')
+    time_stamp = running_time().to_bytes(4,'little')
+    serial_num = int('0').to_bytes(4,'little')
+    msg_bytes = bytes(str(msg), 'utf8')
+    msg_length = len(msg_bytes).to_bytes(1,'little')
+    raw_bytes = (dal_header +
+                 packet_type +
+                 time_stamp +
+                 serial_num +
+                 msg_length +
+                 msg_bytes)
+    radio.send_bytes(raw_bytes)
+
+# =========================================================
 # RADIO - ENVIAR
 # =========================================================
 
@@ -247,8 +267,10 @@ def send_message(destino, secuencia, comando):
         secuencia + "|" +
         comando
     )
+    
+    radio_send_string_to_makecode(mensaje, RADIO_GRUPO)
+    #radio.send(mensaje)
 
-    radio.send(mensaje)
 
 # =========================================================
 # ENVIAR ESTADO
