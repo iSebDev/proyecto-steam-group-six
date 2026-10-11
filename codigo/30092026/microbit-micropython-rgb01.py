@@ -1,22 +1,13 @@
-# Parametros 
+import microbit
+import radio
+
 ID = "RGB01"
 CLAVE = "MICRO123"
 GROUP_RGB = 25
 
-"""
-Tiene que poder acceder a cualquier dispositivo
-con id que sea = RGB[Numero]
-"""
-
-# Importamos el sistema de radio
-import radio
-import microbit
-
-conexion = False
-controlador = "NONE"
+buffer = ""
 
 radio.config(group=GROUP_RGB, power=5)
-
 radio.on()
 
 def radio_send_string(msg, group_id):
@@ -34,12 +25,75 @@ def radio_send_string(msg, group_id):
                  msg_bytes)
     radio.send_bytes(raw_bytes)
 
+def enviar_mensaje(mensaje):
+    partes = mensaje.split("|")
+
+    for parte in partes:
+        paquete = parte + "|"
+        radio_send_string(paquete, GROUP_RGB)
+        microbit.sleep(100)
+
+    radio_send_string(";;", GROUP_RGB)
+    print("TX: ;;")
+
+
+def procesar_mensaje(mensaje):
+    print("MENSAJE COMPLETO:", mensaje)
+
+    if not mensaje.endswith("|"):
+        print("Falta el separador final")
+        return
+
+    partes = mensaje.split("|")
+
+    if len(partes) < 5:
+        print("Mensaje incompleto")
+        return
+
+    comando = partes[0]
+    clave = partes[1]
+    origen = partes[2]
+    destino = partes[3]
+
+    if comando == "PING" and clave == CLAVE:
+        if destino == "RGB*" or destino == ID:
+            print("PING valido")
+
+            respuesta = "PONG|" + CLAVE + "|" + ID + "|" + origen + "|"
+            enviar_mensaje(respuesta)
+
+
 while True:
-    msg = radio.receive_bytes()
-    if msg and not conexion:
-        print(msg, len(msg))
+    paquete = radio.receive_bytes()
+
+    if paquete:
+        # Extraer texto a partir de PING o de un campo posterior.
+        inicio = paquete.find(b"PING|")
+
+        if inicio >= 0:
+            buffer = ""
+
+        if inicio < 0 and not buffer:
+            microbit.sleep(20)
+            continue
+
+        if inicio >= 0:
+            texto = paquete[inicio:]
+        else:
+            texto = paquete[13:]
+
+        texto = texto.replace(b"\x00", b"")
+
         try:
-            radio_send_string("PONG|MICRO123|RGB01|CTRL01", GROUP_RGB)
-        except Exception as e:
-            print("ERR", e)
-    microbit.sleep(50)
+            texto = texto.decode("utf-8")
+            buffer += texto
+
+            if ";;" in buffer:
+                mensaje, resto = buffer.split(";;", 1)
+                buffer = resto
+                procesar_mensaje(mensaje)
+
+        except:
+            print("Error al leer paquete")
+
+    microbit.sleep(20)
