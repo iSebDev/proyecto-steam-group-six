@@ -1,4 +1,4 @@
-# [Nombre Proyecto STEAM]
+# FlashNotify
 # No olviden poner un nombre al proyecto
 
 ## Descripción
@@ -14,7 +14,6 @@ tecnicatura **Redes y Software** del **Instituto Superior Brazo Oriental (ISBO)*
 - Sebastian Aldao
 - Georgina Madera
 - Lautaro Morales
-- [Opcional: agregar fotos o avatar para cada integrante]
 
 ## Documentación
 - [Informe de Avance - Agosto 2026](documentacion/avance1.md)
