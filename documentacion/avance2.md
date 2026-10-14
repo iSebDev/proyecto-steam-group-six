@@ -80,22 +80,38 @@ Para la siguiente semana se propone:
 
 
 ## 23/9/2026
+
 Esta jornada no hubo clases, por lo tanto no se continuó con el desarrolo del proyecto.
 
 ## 30/9/2026
-Añadir
+
+Durante esta jornada se continuó trabajando en la resolución de los problemas técnicos que venían afectando al desarrollo del proyecto, especialmente aquellos relacionados con la comunicación por radio entre las micro:bit. Sin embargo, debido a ausencias y percances relacionados con la salud de algunos integrantes, el equipo de trabajo estuvo incompleto, lo que limitó el tiempo y la capacidad de avanzar en las distintas tareas planificadas.
+
+A pesar de estas dificultades, se logró trabajar sobre las correcciones necesarias para mejorar la comunicación entre ambas micro:bit. Si bien la jornada no permitió realizar grandes avances en el desarrollo general del proyecto, se continuó abordando uno de los principales obstáculos técnicos para la integración del dispositivo detector de sonidos con el dispositivo notificador.
 
 ### Tareas completadas
-*  
+
+*  Continuación del trabajo sobre los problemas técnicos pendientes.
+*  Revisión de la comunicación por radio entre las micro:bit.
+*  Implementación y revisión de correcciones en el código de comunicación.
+*  Realización de pruebas para comprobar el funcionamiento de la comunicación entre ambos dispositivos.
+*  Continuación de la planificación de las próximas tareas de desarrollo.
  
 ### Problemas encontrados y soluciones/alternativas propuestas
 
-Añadir
+Durante la jornada, el equipo de trabajo se encontró incompleto debido a ausencias y percances relacionados con la salud de algunos integrantes. Esta situación dificultó la distribución de tareas y limitó el tiempo disponible para avanzar en el proyecto.
+En el aspecto técnico, se continuó trabajando sobre los inconvenientes relacionados con la comunicación por radio entre las micro:bit. Se revisaron las correcciones necesarias para mejorar el intercambio de información entre los dispositivos, aunque el tiempo de trabajo limitado impidió avanzar significativamente en otras funcionalidades del sistema.
+Por este motivo, se decidió mantener como prioridad la consolidación de la comunicación entre ambos dispositivos antes de continuar con la integración de nuevas características.
 
 ### Próximos pasos
 
 Para la siguiente semana se propone:
-*  
+*  Continuar trabajando sobre la comunicación por radio entre las micro:bit.
+*  Verificar el envío y la recepción de información entre ambos dispositivos.
+*  Integrar la comunicación con el sistema de detección de sonidos.
+*  Implementar y probar el envío de notificaciones ante la detección de sonidos relevantes.
+*  Retomar las tareas pendientes una vez que el equipo pueda trabajar con mayor disponibilidad.
+*  Continuar con las pruebas generales para mejorar la estabilidad del sistema.
 
 ### Imágenes o videos ilustrativos del avance
 Añadir
