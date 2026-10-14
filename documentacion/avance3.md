@@ -11,6 +11,10 @@ Debido a una alerta meteorológica nivel naranja, nuestro equipo de trabajo no s
   - [Problemas encontrados y soluciones/alternativas propuestas]
   - [Próximos pasos]
   - [Imágenes o videos ilustrativos del avance]
+ 
+  - Pruebas a la última versión del código
+  - Desarrollo de versión de conexión
+  - Preparativos para combinar versión de conexión con versión de notificación ()
 
 ## 21/10/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
