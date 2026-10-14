@@ -15,6 +15,7 @@ Debido a una alerta meteorológica nivel naranja, nuestro equipo de trabajo no s
   - Pruebas a la última versión del código
   - Desarrollo de versión de conexión
   - Preparativos para combinar versión de conexión con versión de notificación ()
+  - Nombramos al proyecto FlashNotify
 
 ## 21/10/2026
 - [Realizar una descripción de los avances en el proyecto en la fecha en uno o dos párrafos]
