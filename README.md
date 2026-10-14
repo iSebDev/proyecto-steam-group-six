@@ -1,5 +1,4 @@
 # FlashNotify
-# No olviden poner un nombre al proyecto
 
 ## Descripción
 - El proyecto consiste en desarrollar una alarma visual para personas sordas utilizando una micro:bit, con el objetivo de transformar señales sonoras en alertas visuales que puedan ser percibidas fácilmente por el usuario. El sistema estará diseñado para detectar determinados sonidos o niveles de ruido mediante un sensor y, cuando se cumplan las condiciones establecidas, activar diferentes señales visuales, como luces LED, para indicar que se ha producido una alerta. De esta manera, se busca desarrollar una solución accesible, de bajo costo y sencilla de utilizar, que permita a las personas con dificultades auditivas identificar situaciones que normalmente dependerían de una señal sonora.
