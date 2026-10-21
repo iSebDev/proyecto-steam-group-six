@@ -43,6 +43,7 @@ Añadir
 
 - Merge al código
 - Diseño de prototipo físico de dispositivo notificador
+- Diseño en cartulina de carcasa portátil, adaptada al IoT Kit
 
 ### Tareas completadas
 
