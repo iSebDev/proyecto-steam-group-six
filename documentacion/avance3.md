@@ -41,23 +41,26 @@ Añadir
 
 ## 21/10/2026
 
-- Merge al código
-- Diseño de prototipo físico de dispositivo notificador
-- Diseño en cartulina de carcasa portátil, adaptada al IoT Kit
+Durante esta jornada se continuó trabajando en el desarrollo de FlashNotify, enfocándose en la integración del código correspondiente a los dispositivos emisor y receptor de notificaciones. Además, se diseñó un primer modelo de carcasa portátil utilizando cartulina, adaptado al ELECFREAKS IoT Kit, con el objetivo de generar un molde que los usuarios finales puedan utilizar como referencia para construir sus propias carcasas con cartón u otros materiales de su preferencia. Por último, se comenzó a planificar el diseño de la carcasa para el dispositivo emisor de luz, cuyo desarrollo continuará en próximas jornadas.
 
 ### Tareas completadas
 
-*  t
+*  Se avanzó en la programación necesaria para combinar el código desarrollado durante la jornada anterior con el código del dispositivo emisor de luz de FlashNotify.
+*  Se diseñó una carcasa portátil utilizando cartulina, adaptada al ELECFREAKS IoT Kit. El objetivo es crear un molde de referencia que los usuarios finales puedan utilizar para diseñar y construir sus propias carcasas con cartón u otros materiales de su preferencia.
+*  Se comenzó a planificar el diseño de la carcasa para el dispositivo emisor de luz, considerando su estructura y la disposición de los componentes.
 
 
 ### Problemas encontrados y soluciones/alternativas propuestas
 
-t
+*  La integración de los códigos de ambos dispositivos todavía no se ha completado. Sin embargo, se logró un avance considerable durante la jornada, por lo que se espera finalizar esta tarea en las próximas instancias de trabajo.
+*  El diseño de las carcasas requiere considerar las dimensiones y la disposición de los componentes. Para avanzar en este aspecto, se realizó un primer modelo de cartulina que permitirá evaluar la estructura y realizar ajustes antes de desarrollar una versión definitiva.
 
 ### Próximos pasos
 
-t
-
+*  Finalizar la integración de los códigos de ambos dispositivos.
+*  Realizar pruebas para verificar el funcionamiento conjunto de los componentes y corregir posibles errores.
+*  Continuar con el diseño de la carcasa del dispositivo emisor de luz.
+*  Revisar y ajustar el molde de cartulina para facilitar su reproducción por parte de los usuarios finales.
 
 ### Imágenes o videos ilustrativos del avance
 Añadir
